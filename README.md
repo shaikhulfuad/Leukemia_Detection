@@ -21,6 +21,12 @@ Normal Cells:
 
 **2.Processing**
 
-Splitted the dataset into training, validation and testing
+Splitted the dataset into training, validation and testing by creating seperate folder for each
 
 ![4](https://user-images.githubusercontent.com/54286216/153013313-39d43086-8bc6-4ef3-a476-c2da821d0140.JPG)
+
+For training images used data aumentation techniques:
+    
+    Horizontnal and vertical flip
+    zoom_range = 0.2
+    shear_range(angular) = 0.2
