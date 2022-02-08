@@ -64,13 +64,15 @@ CNN performance evaluation:
 ![9cnn](https://user-images.githubusercontent.com/54286216/153034361-31fe2b4a-92a0-4cd1-b960-d525668c1724.JPG)
 ![10cnnloss](https://user-images.githubusercontent.com/54286216/153034479-20bf4b9b-7aea-47cf-b8a6-f1dabb00c342.JPG)
 
-Accuracy and loss fluctuates a lot although the results are pretty good. Trai
+Accuracy and loss fluctuates although the results are pretty good. Training accuracy is nearly around 80% and loss value is less. There is also a little overfitting issue for validation data.
 
 InceptionV3 performance evaluation:
 
 ![14incepv3](https://user-images.githubusercontent.com/54286216/153035180-318f058a-aac3-48b4-8e74-c62cc92fd802.JPG)
 ![15incepv3loss](https://user-images.githubusercontent.com/54286216/153035202-1480545e-244a-40cf-8e0b-ae25ca9fb35f.JPG)
 
+
+Here the results do not fluctuates and came in more constant pattern. Training accuracy improved and loss value minimzed. Although the validation result is still overfitting but increase in training accuracy decreases the overfitting issue.
 
 
 
