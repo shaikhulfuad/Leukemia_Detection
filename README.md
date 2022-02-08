@@ -76,4 +76,4 @@ Here the results do not fluctuates and came in more constant pattern. Training a
 
 ![chart](https://user-images.githubusercontent.com/54286216/153037155-0f5d47a5-9245-40f8-a47d-bc4c76ccad20.jpg)
 
-According to training result, the values of testing data came quite good and there is no overfitting or underfitting issue. Contrasting to the models, transfer learning approach gave better result over building a convolutional neural network model. The accuracy would have been way better if both the classes had equal amounts of images. The dataset is highly imbalanced as
+According to training result, the values of testing data came quite good and there is no overfitting or underfitting issue. Contrasting to the models, transfer learning approach gave better result over building a convolutional neural network model. The dataset is highly imbalanced because there is only 31.79% of normal image dataset considering the entire dataset. (3389/(7272+3389))*100. Therefore accuracy would have been way better if both the classes had approximately equal amounts of images.
