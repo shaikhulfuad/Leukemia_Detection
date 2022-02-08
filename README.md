@@ -8,4 +8,19 @@ Dataset from kaggle https://www.kaggle.com/andrewmvd/leukemia-classification![im
 The dataset is splitted into two section: Lekemuia(all) and Normal(hem). The number of images for each of the class:
 ![1](https://user-images.githubusercontent.com/54286216/153012046-8bf77022-2d20-42c6-a648-a49856f867c8.JPG)
 
+By using the numpy and tqdm library the images for each of the class has been visalized
 
+Leukemia Cells:
+
+![2leukemiacells](https://user-images.githubusercontent.com/54286216/153012664-c6931add-0ba5-44f0-8e0a-2aa972981ef0.JPG)
+
+
+Normal Cells:
+![3normalcell](https://user-images.githubusercontent.com/54286216/153012727-f67fbbe5-7791-4916-aba3-21c84129a5aa.JPG)
+
+
+**2.Processing**
+
+Splitted the dataset into training, validation and testing
+
+![4](https://user-images.githubusercontent.com/54286216/153013313-39d43086-8bc6-4ef3-a476-c2da821d0140.JPG)
